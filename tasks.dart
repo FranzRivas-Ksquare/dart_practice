@@ -4,6 +4,10 @@ import 'src/is_even.dart';
 import 'src/leap_year.dart';
 import 'src/get_element.dart';
 import 'src/compare_char.dart';
+import 'src/get_odd_list.dart';
+import 'src/factorial.dart';
+import 'src/get_count.dart';
+import 'src/reverse_string.dart';
 
 // Taks 1
 int yearTaskOne = 1997;
@@ -32,6 +36,19 @@ List arr = [
 String wordOne = 'Hello';
 String wordTwo = 'World';
 
+// Task 7
+num numTaskSeven = 10;
+
+// Task 8
+num numTaskEight = 3;
+
+// Task 9
+String sentence = 'A house in the middle of the street';
+String char = 'e';
+
+// Task 10
+String wordTaskTen = 'Hello';
+
 void main() {
   print('Task 1:\nYou will be ${calculateAge(yearTaskOne)} years old in 2030!');
   print(
@@ -39,11 +56,18 @@ void main() {
   print(
       'Task 2:\nYou will be ${calculateAgeFromDOB(dateTaskTwo)} years old in 2030!\n');
   print(
-      'Task 3:\n${isEven(number) ? 'Number ${dateTaskTwo} is even' : 'Number ${number} is not even'}\n');
+      'Task 3:\n${isEven(number) ? 'Number ${number} is even' : 'Number ${number} is not even'}\n');
   print(
       'Task 4:\nYear ${yearTaskFour} ${isLeapYear(yearTaskFour) ? 'is' : 'is not'} leap year\n');
   print('Task 5:\nThe fist element of arr is ${getFirstElement(arr)}\n'
       'The last elementof arr is ${getLastElement(arr)}\n');
   print(
       'Taks 6:\n${wordOne} and ${wordTwo} ${hasEqualChar(wordOne, wordTwo) ? 'have' : 'haven`t'} the same characters\n');
+  print(
+      'Task 7:\nNumber ${numTaskSeven} has this odd below ${getOddList(numTaskSeven)}\n');
+  print(
+      'Task 8:\nThe factorial of ${numTaskEight} is ${factorial(numTaskEight)}\n');
+  print('Task 9:\nIn "${sentence}" are ${getCount(sentence, char)} ${char}\n');
+  print(
+      'Task 10:\nThe reverse of ${wordTaskTen} is ${reverseString(wordTaskTen)}\n');
 }
