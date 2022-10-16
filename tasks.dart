@@ -8,6 +8,11 @@ import 'src/get_odd_list.dart';
 import 'src/factorial.dart';
 import 'src/get_count.dart';
 import 'src/reverse_string.dart';
+import 'src/find_large_num.dart';
+import 'src/find_long_word.dart';
+import 'src/get_char_count.dart';
+import 'src/filter_data.dart';
+import 'src/get_char_position.dart';
 
 // Taks 1
 int yearTaskOne = 1997;
@@ -25,7 +30,7 @@ int yearTaskFour = 2000;
 
 // Task 5
 List arr = [
-  0,
+  1,
   2,
   3,
   4,
@@ -49,6 +54,23 @@ String char = 'e';
 // Task 10
 String wordTaskTen = 'Hello';
 
+// Task 11
+List<num> arrEleven = [300, 55, 76, 100, 4182];
+
+//  Task 12
+List<String> arrString = ['Hi', 'Hello', 'look', 'at', 'me', 'ThisIsTheAnswer'];
+
+// Task 13
+String thirTeen = 'testtt';
+
+// Task 14
+num value = 500;
+List<num> whoIsLess = [100, 200, 300, 400, 1000, 2000, 3000];
+
+// Task 15
+String wordFiveteen = 'sundar';
+String charFiveteen = 'r';
+
 void main() {
   print('Task 1:\nYou will be ${calculateAge(yearTaskOne)} years old in 2030!');
   print(
@@ -70,4 +92,14 @@ void main() {
   print('Task 9:\nIn "${sentence}" are ${getCount(sentence, char)} ${char}\n');
   print(
       'Task 10:\nThe reverse of ${wordTaskTen} is ${reverseString(wordTaskTen)}\n');
+  print(
+      'Task 11:\nThe largest number in array ${arrEleven} is ${findALargestNumber(arrEleven)}\n');
+  print(
+      'Task 12:\nThe largest word of ${arrString} is ${findALongWord(arrString)}\n');
+  print('Task 13:\nIn ${thirTeen} are ${getCharCount(thirTeen)}\n');
+  print(
+      'Task 14:\nIn ${whoIsLess}\nthis are the numbers that are less than ${value}: ${filterData(whoIsLess, value)}\n');
+  print(
+      'Task 15:\n${wordFiveteen} in ${charFiveteen} is in index ${getCharPosition(wordFiveteen, charFiveteen)}\n'
+      '${wordFiveteen} in ${charFiveteen} is in index ${getIndexOf(wordFiveteen, charFiveteen)}\n');
 }
