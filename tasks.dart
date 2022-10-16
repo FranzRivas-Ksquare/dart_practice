@@ -24,8 +24,7 @@ String dateTaskTwo = '1997-04-09';
 // Task 3
 int number = 4;
 
-// Task 4 TODO
-
+// Task 4
 int yearTaskFour = 2000;
 
 // Task 5
