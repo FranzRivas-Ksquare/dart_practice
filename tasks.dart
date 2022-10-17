@@ -80,7 +80,7 @@ void main() {
       'Task 3:\n${isEven(number) ? 'Number ${number} is even' : 'Number ${number} is not even'}\n');
   print(
       'Task 4:\nYear ${yearTaskFour} ${isLeapYear(yearTaskFour) ? 'is' : 'is not'} leap year\n');
-  print('Task 5:\nThe fist element of arr is ${getFirstElement(arr)}\n'
+  print('Task 5:\nThe fist element of ${arr} is ${getFirstElement(arr)}\n'
       'The last elementof arr is ${getLastElement(arr)}\n');
   print(
       'Taks 6:\n${wordOne} and ${wordTwo} ${hasEqualChar(wordOne, wordTwo) ? 'have' : 'haven`t'} the same characters\n');
@@ -99,6 +99,6 @@ void main() {
   print(
       'Task 14:\nIn ${whoIsLess}\nthis are the numbers that are less than ${value}: ${filterData(whoIsLess, value)}\n');
   print(
-      'Task 15:\n${wordFiveteen} in ${charFiveteen} is in index ${getCharPosition(wordFiveteen, charFiveteen)}\n'
-      '${wordFiveteen} in ${charFiveteen} is in index ${getIndexOf(wordFiveteen, charFiveteen)}\n');
+      'Task 15:\nIn ${wordFiveteen}, ${charFiveteen} is in position ${getCharPosition(wordFiveteen, charFiveteen)}\n'
+      'In ${wordFiveteen}, ${charFiveteen} is in position ${getIndexOf(wordFiveteen, charFiveteen)}\n');
 }
