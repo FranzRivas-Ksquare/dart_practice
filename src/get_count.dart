@@ -1,8 +1,8 @@
-num getCount(String sentence, String check) {
+num getCount(String input, String char) {
   num count = 0;
-  List<String> arr = sentence.split('');
-  for (String char in arr) {
-    if (char == check) count++;
+  List<String> arr = input.split('');
+  for (String letter in arr) {
+    if (letter == char) count++;
   }
 
   return count;

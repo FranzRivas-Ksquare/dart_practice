@@ -1,6 +1,6 @@
-List<num> filterData(List<num> arr, num value) {
+List<num> filterData(List<num> input, num value) {
   List<num> lessList = [];
-  arr.forEach((element) {
+  input.forEach((element) {
     if (element < value) lessList.add(element);
   });
   return lessList;
