@@ -1,7 +1,8 @@
 # Dart Practice
 
 ## My test
-I made my own test for this home work. To test this code just need to run *dart tasks.dart*
+I made my own test for this home work. To test this code just need to run *"dart tasks.dart"*
+
 **Test have variables for set inputs to functions**
 **The test output was made to choose between word if is true or flase:**
 
